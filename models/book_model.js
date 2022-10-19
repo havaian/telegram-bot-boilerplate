@@ -2,7 +2,7 @@
 const { 
 	mongoose, 
 	Schema 
-} = require('./modules/imports')
+} = require('./modules')
 
 // Creating book schema
 const bookSchema = new Schema({

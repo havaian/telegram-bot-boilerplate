@@ -1,7 +1,8 @@
 // Importing imports
 const {  
-	Bot, 
-} = require('./modules/imports');
+	Bot,
+  dotenv
+} = require('./modules');
 
 // Creating the bot
 const bot = new Bot(process.env.tgTOKEN);

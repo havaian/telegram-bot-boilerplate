@@ -2,7 +2,7 @@
 const { 
 	Book, 
 	User,
-} = require('../modules/imports');
+} = require('../modules');
 
 // Updating user credentials
 const updateUser = (ctx) => {

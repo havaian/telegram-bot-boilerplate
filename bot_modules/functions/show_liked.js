@@ -2,7 +2,7 @@
 const { 
 	Book, 
 	User,
-} = require('../modules/imports');
+} = require('../modules');
 
 // Show liked books 
 const showLiked = async (ctx) => {

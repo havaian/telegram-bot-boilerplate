@@ -2,7 +2,7 @@
 const { 
 	mongoose, 
 	Schema 
-} = require('./modules/imports')
+} = require('./modules')
 
 // Creating user schema
 const userSchema = new Schema({

@@ -3,7 +3,7 @@ const {
 	Menu, 
 	Book, 
 	User,
-} = require('../modules/imports');
+} = require('../modules');
 
 // Function for liking a book
 const likeBook = (ctx) => {

@@ -2,7 +2,7 @@
 const {  
 	Book, 
 	User,
-} = require('../modules/imports');
+} = require('../modules');
 
 // Adding books to the DB
 const addBook = async (ctx) => {

@@ -2,7 +2,7 @@
 const { 
 	Book, 
 	User,
-} = require('../modules/imports');
+} = require('../modules');
 
 // Delete one book
 const deleteBook = (ctx) => {

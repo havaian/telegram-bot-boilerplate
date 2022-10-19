@@ -3,7 +3,7 @@ const {
 	Bot, 
 	Book, 
 	User,
-} = require('../modules/imports');
+} = require('../modules');
 
 // Creating db for each user to store liked / disliked books of each user
 const createDB = (ctx) => {

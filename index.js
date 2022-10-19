@@ -1,5 +1,5 @@
 // Importing the function for keeping the bot alive
-const keepAlive = require('./server/server');
+const keepAlive = require('./server');
 
 // Importing grammy modules
 const { Bot } = require('grammy');

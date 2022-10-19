@@ -2,7 +2,7 @@
 const { 
 	Book, 
 	User,
-} = require('../modules/imports');
+} = require('../modules');
 
 // Getting user's books from DB
 const myBooks = (ctx) => {

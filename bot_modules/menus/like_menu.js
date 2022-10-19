@@ -1,5 +1,5 @@
 // Importing imports
-const { Menu } = require('../modules/imports');
+const { Menu } = require('../modules');
 
 // Importing likeBook & dislikeBook functions
 const { likeBook } = require('../functions/like_book');

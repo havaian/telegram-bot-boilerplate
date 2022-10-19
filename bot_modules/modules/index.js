@@ -16,6 +16,8 @@ const getJSON = bent('json');
 // Importing Google Image Search
 const gis = require('g-i-s');
 
+const dotenv = require('dotenv').config();
+
 module.exports = {
 	mongoose, 
 	Bot, 
@@ -25,4 +27,5 @@ module.exports = {
 	bent,
 	getJSON,
 	gis,
+	dotenv,
 }

@@ -1,7 +1,7 @@
 // Importing imports
 const { 
 	gis 
-} = require('../modules/imports');
+} = require('../modules');
 
 // IMAGE SEARCH TEST
 gis('Isaac Azimov - Foundation', logResults);

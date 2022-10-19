@@ -3,7 +3,7 @@ const {
 	Menu, 
 	Book, 
 	User,
-} = require('../modules/imports');
+} = require('../modules');
 
 // Show disliked books 
 const showDisliked = async (ctx) => {
