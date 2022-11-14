@@ -9,12 +9,15 @@ const { Menu } = require('@grammyjs/menu');
 const { MongoClient, ServerApiVersion } = require('mongodb');
 const mongoose = require('mongoose');
 
+// Importing dotenv
+const dotenv = require('dotenv').config();
+
 // Connecting to MongoDB & Mongoose
-mongoose.connect(process.env.dbURL);
+mongoose.connect(process.env.db_url);
 console.log('MongoDB ✅\nMongoose ✅');
 
 // Import bot & its functions
-require('./bot_modules/book_store');
+require('./bot_modules/main');
 
 // Function for keeping the bot running
 keepAlive();

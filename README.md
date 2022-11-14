@@ -1,6 +1,6 @@
-# [ Express + Mongo + Node ] back-end boilerplate
+# [ Grammy.js ] telegram bot boilerplate
 
-## Installation
+## Installation & setup
 
 <ul>
 
@@ -26,6 +26,6 @@
 
 ##### <li> The control center of the bot is in ``/index.js`` </li>
 
-##### <li> Run the project ``npn run start`` </li>
+##### <li> Run the project ``npm run start`` </li>
 
 </ul>

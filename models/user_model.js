@@ -16,8 +16,6 @@ const userSchema = new Schema({
 	username: {
 		type: String
 	},
-	liked: [Schema.Types.ObjectId],
-	disliked: [Schema.Types.ObjectId],
 }, { timestamps: true });
 
 const User = mongoose.model('User', userSchema);

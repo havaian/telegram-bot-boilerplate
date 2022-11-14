@@ -7,7 +7,7 @@ server.all('/', (req, res) => {
 })
 
 function keepAlive() {
-  server.listen(3030, () => {
+  server.listen(process.env.endpoint_port, () => {
     console.log('Server ✅');
   })
 }
