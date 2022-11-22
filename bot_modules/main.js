@@ -1,7 +1,7 @@
 // Importing imports
 const {  
 	Bot,
-  dotenv
+	dotenv
 } = require('./modules');
 
 // Creating the bot

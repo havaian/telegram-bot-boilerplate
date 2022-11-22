@@ -3,7 +3,7 @@ const express = require('express');
 const server = express();
 
 server.all('/', (req, res) => {
-  res.send('BookStore bot is running!');
+  res.send('Your bot is running!');
 })
 
 function keepAlive() {

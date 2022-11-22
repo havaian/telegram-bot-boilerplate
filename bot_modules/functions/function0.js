@@ -1,8 +1,8 @@
 // Importing imports
 const { 
 	Bot, 
-	SomeModel, 
-	User,
+	SampleModel, 
+	UserModel,
 } = require('../modules');
 
 // Function for demonstration

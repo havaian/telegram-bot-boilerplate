@@ -6,8 +6,8 @@ const { Bot } = require('grammy');
 const { Menu } = require('@grammyjs/menu');
 
 // Importing models
-const SomeModel = require('../../models/some_model');
-const User = require('../../models/user_model');
+const SampleModel = require('../../models/some_model');
+const UserModel = require('../../models/user_model');
 
 // Importing bent & json modules for creating webhooks for user notifications
 const bent = require('bent');
@@ -23,8 +23,8 @@ module.exports = {
 	mongoose, 
 	Bot, 
 	Menu, 
-	SomeModel, 
-	User,
+	SampleModel, 
+	UserModel,
 	bent,
 	getJSON,
 	gis,

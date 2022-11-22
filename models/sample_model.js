@@ -20,7 +20,7 @@ const sampleSchema = new Schema({
 	},
 }, { timestamps: true });
 
-const Something = mongoose.model('Some', sampleSchema);
+const Sample = mongoose.model('Sample', sampleSchema);
 
 // Exporting Book schema
-module.exports = Something;
+module.exports = Sample;

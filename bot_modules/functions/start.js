@@ -1,15 +1,15 @@
 // Importing imports
 const { 
 	Bot, 
-	Book, 
-	User,
+	SampleModel, 
+	UserModel,
 } = require('../modules');
 
 // Creating db for each user to store liked / disliked books of each user
 const save_user = (ctx) => {
 
 	try {
-		user = new User({
+		user = new UserModel({
 			name: ctx.message.chat.first_name,
 			userid: ctx.from.id,
 			username: ctx.from.username,
